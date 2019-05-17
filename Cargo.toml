@@ -1,0 +1,9 @@
+[package]
+name = "a"
+version = "0.1.0"
+authors = ["Marek Janda <marek.janda@o2.cz>"]
+edition = "2018"
+
+[dependencies]
+askama = { version = "0.8", features = ["with-rocket"] }
+askama_shared = { version = "0.8" }
